@@ -1,0 +1,51 @@
+ul {
+	padding: 30px;
+	border: 1px solid red;
+}
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	border: 1px dashed black;
+}
+
+#elem1{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+#elem2{
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+#elem3{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+
+/* div, ul, li {
+	padding: 20px;
+}
+
+div {
+	border: 1px solid red;
+}
+ul {
+	border: 1px solid orange;
+}
+li {
+	border: 1px solid green;
+} */
+
+
+#block:not(.active) {
+	display: none;
+}
